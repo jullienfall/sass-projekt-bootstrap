@@ -1,0 +1,19 @@
+@import "variables";
+
+#services i {
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: $bluecolor;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 15px;
+    border: 2px solid $bluecolor;
+    transition: all 0.5s;
+    
+    
+    &:hover {
+        color: $bluecolor;
+        background-color: #fff;
+        transform: rotate(360deg);
+    }
+}

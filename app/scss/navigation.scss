@@ -1,0 +1,68 @@
+@import "variables";
+
+.navbar {
+    background-color: transparent;
+    transition: 0.5s ease;
+
+
+    .navbar-brand {
+        color: #fff;
+        font-family: 'Droid Serif', sans-serif;
+        transition: 0.4s;
+
+        &:focus {
+            color: #fff;
+        }
+
+        &:hover {
+            color: $bluecolor;
+        }
+    }
+
+
+    .navbar-brand-hover:hover {
+        color: $darkblue;
+    }
+
+
+    .navbar-toggler {
+        border-color: #fff;
+        cursor: pointer;
+
+        &:focus {
+            outline: none;
+        }
+
+        i {
+            color: #fff;
+            font-size: 1.3em;
+        }
+    }
+
+}
+
+.navbar.navbar-light {
+
+    .nav-link {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        transition: 0.4s;
+        padding: 10px 20px;
+        font-weight: 400;
+
+        &:hover {
+            color: $bluecolor;
+        }
+    }
+
+
+    .nav-link-hover:hover {
+        color: $darkblue;
+    }
+}
+    
+
+.drop-menu {
+    background-color: rgba(14, 216, 214, 0.7);
+}
