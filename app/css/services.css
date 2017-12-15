@@ -1,16 +1,13 @@
 #services i {
-    font-size: 30px;
-    border-radius: 50%;
-    background-color: #0ed8d6;
-    padding: 15px;
-    color: #fff;
-    margin-bottom: 15px;
-    border: 2px solid #0ed8d6;
-    transition: all 0.5s;
-}
-
-#services i:hover {
+  font-size: 30px;
+  border-radius: 50%;
+  background-color: #0ed8d6;
+  padding: 15px;
+  color: #fff;
+  margin-bottom: 15px;
+  border: 2px solid #0ed8d6;
+  transition: all 0.5s; }
+  #services i:hover {
     color: #0ed8d6;
     background-color: #fff;
-    transform: rotate(360deg);
-}
+    transform: rotate(360deg); }
